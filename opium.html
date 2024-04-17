@@ -1,0 +1,12 @@
+<h1>Opium</h1>
+<script>
+function usrpas(){
+if (document.form1.txt.value=="unknown" && document.form1.num.value=="Noelia"){window.location="home.htm"}
+else {alert("Error en Usuario o Contraseña. Intenta de nuevo.")}
+}
+document.oncontextmenu=new Function("return false");
+</script>
+<form name="form1">
+<input type="text" name="txt"> User <br>
+<input type="text" name="num"> Password<br>
+<input type="button" value="Enter" onclick="usrpas()">
